@@ -2,7 +2,15 @@
   "name": "pomidoro-web",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
-
+    "next": "^12.1.5"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^12.1.0"
   }
 }

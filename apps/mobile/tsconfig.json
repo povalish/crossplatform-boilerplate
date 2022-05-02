@@ -1,0 +1,15 @@
+
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react-native",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+  },
+  "exclude": [
+    "node_modules", "babel.config.js", "metro.config.js"
+  ]
+}

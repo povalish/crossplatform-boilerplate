@@ -6,7 +6,7 @@
   "main": ".webpack/main",
   "private": false,
   "scripts": {
-    "start": "electron-forge start",
+    "dev": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish"
@@ -27,13 +27,14 @@
     "@electron-forge/maker-zip": "^6.0.0-beta.63",
     "@electron-forge/plugin-webpack": "6.0.0-beta.63",
     "@vercel/webpack-asset-relocator-loader": "1.7.2",
-    "electron": "18.1.0",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.0.0",
+    "electron": "18.1.0",
     "fork-ts-checker-webpack-plugin": "^7.2.7",
     "node-loader": "^2.0.0",
     "style-loader": "^3.0.0",
-    "ts-loader": "^9.2.2"
+    "ts-loader": "^9.2.2",
+    "webpack": "^5.72.1"
   },
   "config": {
     "forge": {

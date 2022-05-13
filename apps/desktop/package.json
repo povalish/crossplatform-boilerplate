@@ -33,8 +33,7 @@
     "fork-ts-checker-webpack-plugin": "^7.2.7",
     "node-loader": "^2.0.0",
     "style-loader": "^3.0.0",
-    "ts-loader": "^9.2.2",
-    "webpack": "^5.72.1"
+    "ts-loader": "^9.2.2"
   },
   "config": {
     "forge": {
@@ -65,6 +64,10 @@
         [
           "@electron-forge/plugin-webpack",
           {
+            "devServer": {
+              "liveReload": false,
+              "hot": true
+            },
             "mainConfig": "./webpack.main.config.js",
             "renderer": {
               "config": "./webpack.renderer.config.js",

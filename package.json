@@ -2,7 +2,6 @@
   "name": "pomidoro",
   "version": "1.0.0",
   "description": "cross-platform pomidoro app",
-  "main": "index.js",
   "author": "Nikita Povalishev <np@skl.vc>",
   "license": "MIT",
   "private": false,
